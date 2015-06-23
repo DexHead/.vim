@@ -1,4 +1,4 @@
-" .vimrc by Tom Schoenlau
+" .vimrc by Tom Schoenlau // modified by Jan Geissler
 "==================================================================
 "==========================BASICS==================================
 "==================================================================
@@ -100,7 +100,26 @@ set tabstop=4
 "==================================================================
 set t_Co=256
 set background=dark
-colorscheme morning 
+"colorscheme morning 
+"colorscheme 256-grayvim
+"colorscheme 256-jungle
+"colorscheme Chasing_Logic
+"colorscheme Monokai 
+"colorscheme Monokai-Chris
+"colorscheme Tomorrow                 """light Theme 
+"colorscheme Tomorrow-Night           """dark Theme 
+"colorscheme Tomorrow-Night-Bright    """dark Theme 
+"colorscheme Tomorrow-Night-Eighties  """dark Theme 
+"colorscheme apprentice               """dark Theme
+"colorscheme badwolf
+"colorscheme bensday
+"colorscheme black_angus
+"colorscheme blacklight
+"colorscheme bubblegum
+colorscheme bvemu 
+
+
+
 
 "==================================================================
 "==============================KEYMAPS=============================
@@ -180,8 +199,8 @@ let tlist_php_settings = 'php;c:class;f:function'
 "===========================TEXTBLOCKS=============================
 "==================================================================
 "-----comment with datestamp
-nnoremap <c-c> A // [] Tom Schoenlau (u_40) <ESC>"=strftime("%Y-%m-%d")<CR>p==A: 
-inoremap <c-c> <ESC>A // [] Tom Schoenlau (u_40) <ESC>"=strftime("%Y-%m-%d")<CR>p==A: 
+nnoremap <c-c> A // edit Jan Geissler (u_2314) <ESC>"=strftime("%Y-%m-%d")<CR>p==A: 
+inoremap <c-c> <ESC>A // edit Jan Geissler (u_2314) <ESC>"=strftime("%Y-%m-%d")<CR>p==A: 
 "-----insert simple datestamp
 nnoremap <c-z> <ESC>"=strftime("%Y-%m-%d %H:%M:%S")<CR>pA 
 inoremap <c-z> <ESC>"=strftime("%Y-%m-%d %H:%M:%S")<CR>pA 
